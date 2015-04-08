@@ -35,7 +35,7 @@ We deal with this when we share our weekly release notes with users at [Beegit](
 
 Here's how an early update was described on our Dev team's Trello board: 
 
-> Browse full commit UI 
+```Browse full commit UI```
 
 Here's how we ended up explaining that to our users: 
 

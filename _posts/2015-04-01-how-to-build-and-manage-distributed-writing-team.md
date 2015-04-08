@@ -28,7 +28,7 @@ If you want to tell a story about your company or brand, try someone with a back
 ##### 3. Ask for diverse samples
 We have a small stable of strong writers at Beegit, and before I bring in anyone new I always ask for samples across different publications, sites or formats. Good writers always have them. Seeing samples from multiple places shows that a writer is truly talented and wasn't just boosted up by a quality editor. 
 
-If you come across writers who tell you they don't have samples, run. Yes, everyone has to write their first piece somewhere, but it doesn't have to be on your dime.
+> If you come across writers who tell you they don't have samples, run. Yes, everyone has to write their first piece somewhere, but it doesn't have to be on your dime.
 
 ### Manage the process 
 

@@ -4,9 +4,9 @@ layout: post
 title:  Why Publishers Should Embrace Agile Content 
 date:   2015-03-17 12:00:00
 teaser: When it comes to content strategy, you need to think about making it flexible and reusable 
-image: http://criminal-defense-network.com/wp-content/uploads/2014/08/mags-court.jpg
+image: https://usatlife.files.wordpress.com/2014/04/xxx-judge-judy-in-courtroom-06121.jpg?w=1200
 comments: true
-catehory: whaaaatttt?
+category: whaaaatttt?
 
 ---
 **The following is part of a guest post Beegit’s Mike Cottrill wrote for [Sparksheet](http://sparksheet.com/why-publishers-should-embrace-agile-content/).** 

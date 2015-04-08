@@ -3,11 +3,11 @@ layout: default
 ---
 <div class="post">
 
-	<div class="container-fluid subpage-header" style="background-image: url('{{ site.url }}/images/{{ site.default_bg }})">
+	<div class="container-fluid subpage-header" style="background-image: url('{{ page.image }}')">
 		<div class="row">
 			<div class="container">
-				<div class="col-md-12 box">
-					<div class="subpage-wrapper">
+				<div class="col-md-6 box">
+					<div class="welcome-wrapper">
 						<h1><span class="image-headline">{{ site.title }}</span></h1>
 					</div>
 				</div>
@@ -15,27 +15,23 @@ layout: default
 		</div>
 	</div>
 	<div class="container">
-		<div class="col-md-9 box">
-			<h3 class="section-header">Blog post</h3>
-			<header class="post-header">
-				<span class="post-date">{{ page.date | date: "%b %-d, %Y" }}</span>
-			  	<img src="{{ page.image }}" class="img-responsive page-image">
-			</header>
+		<div class="col-md-8 box">
 			<div class="social-share">
-            <p>Share this post</p>
-              <a class="twitter" id="social-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via=ProjectBeegit&hashtags={{ tagStr }}" target="_blank" title="Share this post on Twitter"><i class="fa fa-twitter"></i></a>
-              <a class="facebook" id="social-facebook" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}" target="_blank" title="Share this post on Facebook"><i class="fa fa-facebook"></i></a>
-              <a class="google" id="social-google" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Share this post on Google Plus"><i class="fa fa-google-plus"></i></a>
-              <a class="linkedin" id="social-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ url }}&source=http%3a%2f%2fzhangwenli.com" target="_blank" title="Share this post on LinkedIn"><i class="fa fa-linkedin"></i></a>
-          </div>
+				<a class="twitter" id="social-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via=ProjectBeegit&hashtags={{ tagStr }}" target="_blank" title="Share this post on Twitter"><i class="fa fa-twitter"></i></a>
+				<a class="facebook" id="social-facebook" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}" target="_blank" title="Share this post on Facebook"><i class="fa fa-facebook"></i></a>
+				<a class="google" id="social-google" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Share this post on Google Plus"><i class="fa fa-google-plus"></i></a>
+				<a class="linkedin" id="social-linkedin" href="http://www.linkedin.com/shareArticle?mini=true&title={{ page.title }}&url={{ url }}&source=http%3a%2f%2fzhangwenli.com" target="_blank" title="Share this post on LinkedIn"><i class="fa fa-linkedin"></i></a>
+			</div>
+			<h3 class="section-header">Share </h3>
 			<div class="post-title">
 				<h1>{{ page.title }}</h1>
 			</div>
+			<span class="page-date">{{ page.date | date: "%b %-d, %Y" }}</span>
 			<article class="post-content">
 				{{ content }}
 			</article>
 		</div>
-		<div class="col-md-3 box">
+		<div class="col-md-4 box">
 			{% include sidebar.html %} 
 		</div>
 	</div>

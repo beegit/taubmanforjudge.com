@@ -1,11 +1,11 @@
 <h3 class="section-header">Biography</h3>
 <div class="bio-wrapper">
-	<span class="title">Brian Taubman</span>
-	<a href="{{ site.url | prepend: site.baseurl }}/about"><img src="{{ site.url | prepend: site.baseurl }}/images/{{ site.bio }}" class="img-responsive"></a>
+	<a href="/about"><span class="title">Brian Taubman</span></a>
+	<a href="/about"><img src="{{ site.url | prepend: site.baseurl }}/images/{{ site.bio_photo }}" class="img-responsive"></a>
 </div>
 
 <p class="bio-text">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit non velit placerat varius a vitae leo. Maecenas tristique ligula dolor. Nunc vitae accumsan enim. Ut mattis est eu dolor condimentum, sed maximus turpis imperdiet.
+	{{ site.short_bio }} <a href="/about">More...</a>
 </p>
 <h3 class="section-header">Posts by category</h3>
 <ul class="sidebar">
