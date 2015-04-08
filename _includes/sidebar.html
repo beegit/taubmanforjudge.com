@@ -1,0 +1,29 @@
+<h3 class="section-header">Biography</h3>
+<div class="bio-wrapper">
+	<span class="title">Brian Taubman</span>
+	<a href="{{ site.url | prepend: site.baseurl }}/about"><img src="{{ site.url | prepend: site.baseurl }}/images/{{ site.bio }}" class="img-responsive"></a>
+</div>
+
+<p class="bio-text">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit non velit placerat varius a vitae leo. Maecenas tristique ligula dolor. Nunc vitae accumsan enim. Ut mattis est eu dolor condimentum, sed maximus turpis imperdiet.
+</p>
+<h3 class="section-header">Posts by category</h3>
+<ul class="sidebar">
+	{% for category in site.categories %}
+    {% assign cat_name = (category | first) %}
+  	<li class="category">{{ cat_name | capitalize }}</li>
+	    <ul>
+            {% assign cat_posts = (site.categories[cat_name] | sort: 'sequence') %}
+	    	{% for post in cat_posts %}
+                {% if post.url %}
+                    {% if page.url == post.url %}
+                        <li class="active sidebar-link"><a href="{{post.url}}" class="active">{{post.title}}</a></li>
+                    {% else %}
+                        <li class="sidebar-link"><a href="{{post.url}}">{{post.title}}</a></li>
+                    {% endif %}
+                {% endif %}
+	    	{% endfor %}
+	    </ul>
+  	</li>
+	{% endfor %}
+</ul>

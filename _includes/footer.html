@@ -1,0 +1,59 @@
+<footer class="site-footer">
+
+  <div class="container">
+    <div class="col-md-6 box">
+      <h4 class="footer-heading">Blah</h4>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et ante accumsan, fermentum nisl eu, rutrum tortor. Pellentesque quis turpis lorem. Praesent fringilla dolor justo, vel varius quam ullamcorper et. Proin nisl lectus, pretium ornare fringilla id, hendrerit sit amet arcu.
+    </div>
+     <div class="col-md-3 box">
+        <h4 class="footer-heading">Blah</h4>
+        <ul>
+          {% if site.social.twitter %}
+              <li>
+                  <a href="http://twitter.com/{{ site.social.twitter }}" data-toggle="tooltip" title="{{ site.social.twitter}} on Twitter" target="_blank">
+                  <i class="fa fa-twitter"></i> Twitter
+                  </a>
+              </li>
+          {% endif %}
+          {% if site.social.facebook %}
+              <li>
+                  <a href="http://facebook.com/{{ site.social.facebook }}" target="_blank">
+                  <i class="fa fa-facebook"></i> Facebook
+                  </a>
+              </li>
+          {% endif %}
+          {% if site.social.google_plus %}
+              <li>
+                  <a href="{{ site.social.google_plus }}" target="_blank">
+                      <i class="fa fa-google-plus"></i> Google +
+                  </a>
+              </li>
+          {% endif %}
+          {% if site.social.linkedin %}
+              <li>
+                  <a href="{{ site.social.linkedin }}" target="_blank">
+                      <i class="fa fa-linkedin"></i> LinkedIn
+                  </a>
+              </li>
+          {% endif %} 
+          {% if site.social.instagram %}
+              <li>
+                  <a href="{{ site.social.instagram }}" target="_blank">
+                      <i class="fa fa-instagram"></i> Instagram
+                  </a>
+              </li>
+          {% endif %} 
+      </ul>
+    </div>
+     <div class="col-md-3 box">
+      <h4 class="footer-heading">Blah</h4>
+      {% for link in site.links %}
+          <li>
+              <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+          </li>
+      {% endfor %}   
+      <li><i class="fa fa-rss"></i>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></li>
+    </div>
+  </div>
+
+</footer>

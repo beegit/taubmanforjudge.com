@@ -1,0 +1,31 @@
+# Site settings
+title: Brian Taubman for Lakewood Municipal Court Judge
+email: your-email@domain.com
+description: "It's time for new leadership this November. Vote for Brian and make your plea for common sense."
+baseurl: ""
+url: "http://taubmanforjudge.com"
+bio: "taubman-bio.jpg"
+default_bg: "main.jpg'"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+kramdown: 
+  input: GFM
+
+# Links to include in site navigation
+links:
+  - title: About
+    url: /about
+  - title: What Brian Stands For
+    url: /what-brian-stands-for
+  - title: Endorsements
+    url: /endorsements
+
+# Social media links
+social:
+  twitter:  ProjectBeegit
+  facebook: ProjectBeegit
+  linkedin: https://www.linkedin.com/company/beegit?trk=tyah&trkInfo=tas%3Abeegit%2Cidx%3A1-1-1
+  google_plus: https://plus.google.com/107545974766894256307/posts
