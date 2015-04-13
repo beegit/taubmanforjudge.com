@@ -4,6 +4,7 @@ email: your-email@domain.com
 description: "It's time for new leadership this November. Vote for Brian and make your plea for common sense."
 baseurl: ""
 url: "http://taubmanforjudge.com"
+logo: "taubman-logo.png"
 bio_photo: "taubman-bio.jpg"
 default_bg: "main.jpg"
 short_bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit non velit placerat varius a vitae leo. Maecenas tristique ligula dolor. Nunc vitae accumsan enim."

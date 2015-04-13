@@ -67,11 +67,21 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 
 /* Navbar */
 
 .navbar-inverse {
-  background-color: #1f376b !important;
+  background-color: #11234a !important;
   border-radius: 0 !important;
   border: 0 !important;
 }
@@ -308,11 +318,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   border-radius: 3px;
 }
 
-.photo-wrapper img {
-  max-height: auto;
-  width: 100%;
-}
-
 .photo-wrapper .title {
   font-size: 24px;
   line-height: 40px;
@@ -344,6 +349,17 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   left: 0;
   bottom: 0;
 }
+
+.photo-wrapper img {
+  max-height: auto;
+  width: 100%;
+/*c*/
+}
+
+/*.photo-wrapper img:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}*/
 
 .post-teaser {
   font-size: 14px;
@@ -459,8 +475,8 @@ h1 .image-headline {
   padding: 2px 2px;
 }
 
-.issues {
-  background-color: #29262f;
+.declaration-box {
+  background-color: #b93941;
   color: #fff;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -470,7 +486,7 @@ h1 .image-headline {
 }
 
 
-.issues h3 {
+.declaration-box h3 {
   font-family: 'Roboto Condensed', sans-serif !important;
   font-weight: 300;
   font-size: 22px;
@@ -502,6 +518,7 @@ h1 .image-headline {
   margin-top: -20px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center top;
 }
 
 .subpage-wrapper {
@@ -693,22 +710,6 @@ li.sidebar-link > a.active:before {
   color: #999999;
 }
 
-/*.social-share .twitter {
-  background-color: #55acee;
-}
-
-.social-share .facebook {
-  background-color: #3b5998;
-}
-
-.social-share .google {
-  background-color: #dd4b39;
-}
-
-.social-share .linkedin {
-  background-color: #0976b4;
-}*/
-
 
 /* media queries */
 /* ----------------------------------------------------------*/
@@ -716,6 +717,15 @@ li.sidebar-link > a.active:before {
 
 @media screen and (max-width: 768px) {
 
+  .navbar .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+      text-align: left !important;
+  }
 
 }
 
