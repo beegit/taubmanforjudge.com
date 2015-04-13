@@ -23,6 +23,10 @@ links:
     url: /what-brian-stands-for
   - title: Endorsements
     url: /endorsements
+  - title: Volunteer
+    url: /volunteer
+  - title: Donate
+    url: /donate
 
 # Social media links
 social:
@@ -30,3 +34,4 @@ social:
   facebook: ProjectBeegit
   linkedin: https://www.linkedin.com/company/beegit?trk=tyah&trkInfo=tas%3Abeegit%2Cidx%3A1-1-1
   google_plus: https://plus.google.com/107545974766894256307/posts
+  instagram: 
