@@ -7,6 +7,7 @@ url: "http://taubmanforjudge.com"
 logo: "taubman-logo.png"
 bio_photo: "taubman-bio.jpg"
 default_bg: "main.jpg"
+subpage_bg: "subpage.jpg"
 short_bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit non velit placerat varius a vitae leo. Maecenas tristique ligula dolor. Nunc vitae accumsan enim."
 
 # Build settings

@@ -726,6 +726,19 @@ li.sidebar-link > a.active:before {
 /* media queries */
 /* ----------------------------------------------------------*/
 
+@media screen and (max-width: 1024px) {
+
+  h1 .image-headline {
+    line-height: 48px;
+    font-size: 32px;
+  }
+
+  .subpage-header h1 .image-headline {
+    line-height: 48px;
+    font-size: 32px;
+  }
+
+}
 
 @media screen and (max-width: 768px) {
 
@@ -739,9 +752,14 @@ li.sidebar-link > a.active:before {
       text-align: left !important;
   }
 
+  .welcome-wrapper {
+    margin-top: 240px;
+    text-align: center !important;
+  }
+
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
 
   .wrap { padding: 0 12px; }
 
@@ -801,14 +819,9 @@ li.sidebar-link > a.active:before {
     display: none;
   }
 
-  h1 .image-headline {
-    line-height: 48px;
-    font-size: 32px;
-  }
-
-  .subpage-header h1 .image-headline {
-    line-height: 48px;
-    font-size: 32px;
+  .welcome-wrapper {
+    margin-top: 240px;
+    text-align: center !important;
   }
 
 
