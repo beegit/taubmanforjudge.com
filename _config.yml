@@ -8,7 +8,7 @@ logo: "taubman-logo.png"
 bio_photo: "taubman-bio.jpg"
 default_bg: "main.jpg"
 subpage_bg: "subpage.jpg"
-short_bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at elit non velit placerat varius a vitae leo. Maecenas tristique ligula dolor. Nunc vitae accumsan enim."
+short_bio: "Brian loves spending time with his two dogs at the Metroparks and Lakewood Dog Park. He also enjoys eating at local restaurants and "
 
 # Build settings
 markdown: kramdown
@@ -23,8 +23,6 @@ links:
     url: /about
   - title: What Brian Stands For
     url: /what-brian-stands-for
-  - title: Endorsements
-    url: /endorsements
   - title: Volunteer
     url: /volunteer
   - title: Donate
@@ -34,8 +32,8 @@ links:
 
 # Social media links
 social:
-  twitter:  ProjectBeegit
-  facebook: ProjectBeegit
-  linkedin: https://www.linkedin.com/company/beegit?trk=tyah&trkInfo=tas%3Abeegit%2Cidx%3A1-1-1
-  google_plus: https://plus.google.com/107545974766894256307/posts
+  twitter:  Taubmanforjudge
+  facebook: taubmanforjudge2015
+  linkedin: 
+  google_plus:
   instagram: 
