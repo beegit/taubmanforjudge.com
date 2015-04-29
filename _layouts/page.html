@@ -2,16 +2,12 @@
 layout: default
 ---
 <div class="post">
-	{% if site.default_bg %}
-	    {% if site.default_bg contains 'http' %}
-	        {% capture default_bg_uri %}{{ site.default_bg }}{% endcapture %}
+	    {% if site.subpage_bg contains 'http' %}
+	        {% capture default_bg_uri %}{{ site.subpage_bg }}{% endcapture %}
 	    {% else %}
 	        {% capture default_bg_uri %}{{ site.url }}/images/{{ site.subpage_bg }}{% endcapture %}
 	    {% endif %}
 	    <div class="container-fluid welcome" style="background-image: url('{{default_bg_uri}}')">
-	{% else %}
-		<div class="container-fluid welcome" style="background-image: url('{{ site.url }}/images/{{ site.default_bg }}')">
-	{% endif %}
 		<div class="row">
 			<div class="container">
 				<div class="col-sm-6 box">
