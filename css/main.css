@@ -284,10 +284,10 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 
 .bio-wrapper {
   position: relative;
-  float: left;
   margin-bottom: 15px;
   overflow: hidden;
   border-radius: 3px;
+  display: block;
 }
 
 .page-image {
@@ -538,7 +538,7 @@ h1 .image-headline {
   margin-top: -20px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
 }
 
 .subpage-wrapper {
@@ -700,6 +700,7 @@ li.sidebar-link > a.active:before {
   position: absolute;
   left: 26px;
 }
+
 
 /* Social Share */
 /* ----------------------------------------------------------*/
