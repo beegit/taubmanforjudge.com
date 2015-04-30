@@ -30,6 +30,9 @@ links:
   - title: Contact
     url: /contact
 
+# Google analytics
+google_analytics:   UA-62439730-1
+
 # Social media links
 social:
   twitter:  Taubmanforjudge
