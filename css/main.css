@@ -538,7 +538,7 @@ h1 .image-headline {
   margin-top: -20px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
 }
 
 .subpage-wrapper {
