@@ -93,7 +93,7 @@ textarea {
 /* Navbar */
 
 .navbar-inverse {
-  background-color: #11234a !important;
+  background-color: #123460 !important;
   border-radius: 0 !important;
   border: 0 !important;
 }
@@ -566,6 +566,11 @@ h1 .image-headline {
 .post {
   margin-bottom: 30px;
   margin-top: -20px;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
 }
 
 .post-header { 

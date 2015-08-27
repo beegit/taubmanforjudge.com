@@ -3,24 +3,19 @@ layout: default
 ---
 <div class="post">
 
-	<div class="container-fluid subpage-header" style="background-image: url('{{ page.image }}');">
+	<div class="container-fluid subpage-header" style="background-image: url('{{ site.url }}/images/{{ site.subpage_bg }}');">
 		<div class="row">
 			<div class="container">
 				<div class="col-md-6 box">
-					<!-- div class="welcome-wrapper">
+					<div class="welcome-wrapper">
 						<h1><span class="image-headline">{{ site.title }}</span></h1>
-					</div> -->
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="container">
 		<div class="col-md-8 box">
-			<div class="social-share">
-				<a class="twitter" id="social-twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ url }}&via=Taubmanforjudge&hashtags={{ tagStr }}" target="_blank" title="Share this post on Twitter"><i class="fa fa-twitter"></i></a>
-				<a class="facebook" id="social-facebook" href="https://www.facebook.com/sharer/sharer.php?t={{ page.title }}&u={{ url }}" target="_blank" title="Share this post on Facebook"><i class="fa fa-facebook"></i></a>
-				<a class="google" id="social-google" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" target="_blank" title="Share this post on Google Plus"><i class="fa fa-google-plus"></i></a>
-			</div>
 			<h3 class="section-header">Share </h3>
 			<div class="post-title">
 				<h1>{{ page.title }}</h1>
